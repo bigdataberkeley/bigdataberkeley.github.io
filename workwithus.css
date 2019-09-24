@@ -1,9 +1,19 @@
-body {
+/*body {
     background: url(team_background2-10.png);
     width: 99%;
     height: 300%;
     background-repeat: no-repeat;
 }
+*/
+html { 
+  background: url(team_background2-10.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300%;
+}
+
 
 /* --------------------------------------------------------------------------- */
 
@@ -169,6 +179,14 @@ nav.stroke ul li a:hover:after {
 /* --------------------------------------------------------------------------- */
 
 /* Media Queries */
+
+@media (min-width: 1600px) {
+  .team-vector {
+      left: 5%;
+      width: 1450px;
+      height: 500px;
+  }
+}
 
 @media (max-width: 1350px) {
   .description {

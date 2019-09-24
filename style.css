@@ -1,6 +1,19 @@
+/*html { 
+  background: url(home_background-04-02.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 260%;
+}
+*/
 body {
     background: url(home_background-04-02.png);
     width: 99%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 260%;
     background-repeat: no-repeat;
 }
@@ -87,6 +100,7 @@ body {
 .laptop {
   	width: 520px;
   	height: 520px;
+    opacity: 1;
 }
 
 /* --------------------------------------------------------------------------- */
@@ -374,6 +388,16 @@ nav.stroke ul li a:hover:after {
 /* --------------------------------------------------------------------------- */
 
 /* Media Queries */
+
+@media (min-width: 1600px) {
+  .laptop {
+      opacity: 0;
+  }
+
+  .ourcommittees {
+    left: 34%;
+  }
+}
 
 @media (max-width: 1350px) {
   /* home page components */
