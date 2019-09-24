@@ -1,0 +1,16 @@
+body {
+    background: url(website_popup-21.png);
+    width: cover;
+    height: cover;
+    background-repeat: no-repeat;
+}
+
+.patience {
+  font-family : Gotham;
+  font-size : 15px;
+  line-height : 20px;
+  color : #E9E9FD;
+  font-weight: 400;
+  color : rgb(233, 233, 253);
+  opacity: 0.7;
+}

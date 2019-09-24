@@ -1,0 +1,147 @@
+ <html lang="en">
+    <head>
+
+        <title>Big Data at Berkeley</title>
+        <link rel="icon" href="favicon.ico">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="style.css" rel="stylesheet"/>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+        <script src="jquery-1.10.2.min.js"></script>
+        <script src="https://raw.githubusercontent.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.min.js"></script>
+        <script src="main.js"></script>
+
+        <!-- import bebas neue font -->
+        
+        <link rel="stylesheet" type="text/css" href="https://use.typekit.net/snc1wzi.css">
+        <link rel="stylesheet" media="screen" type="text/css" href="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                if ($(window).width() < 700){
+                    alert("The mobile version of our site is still under construction. Please switch to a desktop. Thank you for your patience!");
+                    window.location.replace("mobile.html"); // redirect if mobile browser detected
+
+                }
+            });
+        </script>
+
+    </head>
+    <body>
+
+        <!-- logo -->
+        <a href="index.html">        
+            <div id="logo"><img class="logo" src="bdlogo-03.png"/></div>
+        </a>
+
+        <!-- nav bar -->
+        <nav class="stroke">
+            <ul>
+            <li><a href="index.html" id="link1">HOME</a></li>
+            <li><a href="ourteam.html" id="link2">OUR TEAM</a></li>
+            <li><a href="education.html" id="link3">EDUCATION</a></li>
+            <li><a href="projects.html" id="link4">PROJECTS</a></li>
+            <li><a href="workwithus.html" id="link5">WORK WITH US</a></li>
+            <li><a href="contactus.html" id="link6">CONTACT US</a></li>
+            <li><a href="apply.html" id="link7">APPLY</a></li>
+            </ul>
+        </nav>
+
+        <!-- ----------------------------------------------------------------------- -->
+
+        <!-- home screen components -->
+        <h1 class="name">BIG DATA AT BERKELEY</h1>
+
+        <div id="description">
+            <h1 class="description">We are a student organization that strives to promote data science fundamentals while impacting our community through educational workshops and data analytics projects.</h1>
+        </div>
+
+        <a href="#whatwedo">  
+            <img class="learnmore-button" src="learnmore-04.png"/>
+        </a>
+
+        <a href="apply.html">        
+            <img class="apply-button" src="apply-05.png"/>
+        </a>
+
+        <div id="laptop" data-tilt data-tilt-perspective="3700" data-tilt-max=15>
+            <img class="laptop" src="laptop-06.png"/>
+        </div>
+
+        <!-- ----------------------------------------------------------------------- -->
+
+        <!-- bouncing arrow on home screen -->
+        <svg class="bounce" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7.4px"
+             height="24.4px" viewBox="0 0 7.4 24.4" style="enable-background:new 0 0 7.4 24.4;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:url(#SVGID_1_);}
+            .st1{fill:url(#SVGID_2_);}
+        </style>
+        <defs>
+        </defs>
+        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="3.5112" y1="-489.8815" x2="3.8025" y2="-516.9362" gradientTransform="matrix(1 0 0 -1 0 -489.4562)">
+            <stop  offset="0" style="stop-color:#0F054C"/>
+            <stop  offset="6.745878e-02" style="stop-color:#110851"/>
+            <stop  offset="0.142" style="stop-color:#18115E"/>
+            <stop  offset="0.22" style="stop-color:#241F74"/>
+            <stop  offset="0.3004" style="stop-color:#343493"/>
+            <stop  offset="0.3818" style="stop-color:#484EBA"/>
+            <stop  offset="0.4329" style="stop-color:#5761D7"/>
+            <stop  offset="0.5096" style="stop-color:#5C5FD5"/>
+            <stop  offset="0.5983" style="stop-color:#6A5BD0"/>
+            <stop  offset="0.6929" style="stop-color:#8154C8"/>
+            <stop  offset="0.7917" style="stop-color:#A14ABD"/>
+            <stop  offset="0.8937" style="stop-color:#CB3CAE"/>
+            <stop  offset="0.997" style="stop-color:#FD2C9D"/>
+            <stop  offset="1" style="stop-color:#FF2C9C"/>
+        </linearGradient>
+        <path class="st0" d="M7.3,19.8c0.2-0.3,0.1-0.7-0.1-0.9c-0.2-0.2-0.4-0.2-0.6,0l-2.5,3.4l0-21.6C4.2,0.3,4,0,3.7,0
+            C3.5,0,3.3,0.3,3.2,0.6l0,21.6l-2.5-3.4c-0.2-0.2-0.5-0.2-0.7,0c-0.2,0.2-0.2,0.6,0,0.9c0,0,0,0,0,0l3.3,4.4c0.2,0.2,0.5,0.3,0.6,0
+            c0,0,0,0,0,0L7.3,19.8z"/>
+        </svg>
+
+        <!-- ----------------------------------------------------------------------- -->
+
+        <!-- second part of home page -->
+        <div id="page1">
+          <a id="whatwedo" class="smooth"></a>
+            <div class=purple-box>
+                <h1 class="ourvision">OUR VISION</h1>
+                <a class="visionbody">We are a group of students who came into college with no prior introduction to the new and rapidly evolving field of data science. After being exposed to the innovative curriculum at UC Berkeley, completing a few industry-level projects, and working as members of the Data 8 course staff, we realized the impact this field can have on our world and its importance in education.</a>
+                <a href="apply.html">        
+                    <img class="apply-to-learn-button" src="applytolearn-14.png"/>
+                </a>
+            </div>
+            <div class=outside-box>
+                <h1 class="ourcommittees">OUR COMMITTEES</h1>
+                <div class=committees-box>
+                    <a href="education.html">  
+                        <img class="education" src="education-box-15.png"/>
+                    </a>
+                    <a href="projects.html">  
+                        <img class="projects" src="projects-box-16.png"/>
+                    </a>
+                </div>
+            </div>
+
+            <a href="https://www.ocf.berkeley.edu" target="_blank">
+                <img class="ocf" src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+                alt="Hosted by the OCF" style="border: 0;" />
+            </a>
+
+            <div id="ocf-notice"
+                <a class="ocf-notice">Copyright © 2019 Big Data at Berkeley. We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</a>
+            </div>
+
+        </div>
+
+
+        <!-- ----------------------------------------------------------------------- -->
+
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+    </body>
+</html>

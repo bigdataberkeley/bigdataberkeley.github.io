@@ -1,0 +1,530 @@
+body {
+    background: url(team_background-18.png);
+    width: 99%;
+    height: 240%;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#logo {
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
+
+.logo {
+    width: 190px;
+    height: 47px;
+}
+
+.name {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 110px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  letter-spacing: 0.4px;
+  transform: translate(-50%, -50%);
+}
+
+.team-vector {
+	position: absolute;
+    top: 47%;
+    left: 2%;
+    width: 1350px;
+    height: 450px;
+    opacity: 0.9;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.purple-box {
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  width: 80%;
+  height: 310px;
+  background-color: #151350;
+}
+
+.berk-title {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 65px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  letter-spacing: 0.4px;
+}
+
+#description {
+  position: absolute;
+    top: 42%;
+    left: 5%;
+    height: 50px;
+    width: 90%;
+}
+
+.description {
+  position: relative;
+  top: 1%;
+  left: 1%;
+  right: 2%;
+  font-family : GothamPro;
+  font-weight: 100;
+  font-size : 22px;
+  line-height : 27px;
+  color : #888888;
+  color : rgb(233, 233, 253);
+  text-outline : #E9E9FD;
+  text-outline : rgb(233, 233, 253);
+}
+
+.apply-button {
+  position: absolute;
+    top: 65%;
+    left: 5.5%;
+    right: 40%;
+    width: 125px;
+    height: 59px;
+    opacity: 1;
+}
+
+.apply-button:hover {
+  opacity: 0.7;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.outside-box {
+  position: absolute;
+  top: 155%;
+  left: 10%;
+  width: 80%;
+  height: 330px;
+  background-color: #151350;
+}
+
+.hs-title {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 65px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  letter-spacing: 0.4px;
+}
+
+#description2 {
+  position: absolute;
+    top: 42%;
+    left: 5%;
+    height: 50px;
+    width: 90%;
+}
+
+.description2 {
+  position: relative;
+  top: 1%;
+  left: 1%;
+  right: 2%;
+  font-family : GothamPro;
+  font-weight: 100;
+  font-size : 22px;
+  line-height : 27px;
+  color : #888888;
+  color : rgb(233, 233, 253);
+  text-outline : #E9E9FD;
+  text-outline : rgb(233, 233, 253);
+}
+
+.apply-to-learn-button {
+  position: absolute;
+    top: 73%;
+    left: 5.5%;
+    right: 40%;
+    width: 135px;
+    height: 50px;
+    opacity: 1;
+}
+
+.apply-to-learn-button:hover {
+  opacity: 0.7;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#contact {
+  position: absolute;
+    top: 210%;
+    left: 10%;
+    height: 66px;
+    width: 80%;
+}
+
+.contact {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 12%;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 45px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  letter-spacing: 0.4px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* nav bar */
+nav ul {
+  list-style: none;
+  position: absolute;
+  top: 4%;
+  right: 3%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 23px;
+  line-height : 8px;
+  letter-spacing : 0.1px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  opacity : 0.9;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  opacity: .5;
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+/* custom scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer; 
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Media Queries */
+
+@media (max-width: 1350px) {
+  .description {
+    font-size : 20px;
+    line-height : 25px;
+  }
+
+  .description2 {
+    font-size : 20px;
+    line-height : 25px;
+  }
+
+  .berk-title {
+    font-size : 64px;
+  }
+
+  .hs-title {
+    font-size : 63px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .description {
+    font-size : 19px;
+    line-height : 24px;
+  }
+
+  .description2 {
+    font-size : 19px;
+    line-height : 24px;
+  }
+
+  .berk-title {
+    font-size : 63px;
+  }
+
+  .hs-title {
+    font-size : 62px;
+  }
+
+  #contact {
+    left: 9%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .description {
+    font-size : 18px;
+    line-height : 22px;
+  }
+
+  .description2 {
+    font-size : 18px;
+    line-height : 22px;
+  }
+
+  .berk-title {
+    font-size : 62px;
+  }
+
+  .hs-title {
+    font-size : 61px;
+  }
+
+  #contact {
+    left: 7.5%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1150px) {
+  nav ul li a {
+    padding: 5px;
+  }
+
+  .description {
+    font-size : 17px;
+    line-height : 21px;
+  }
+
+  .description2 {
+    font-size : 17px;
+    line-height : 21px;
+  }
+
+  .berk-title {
+    font-size : 60px;
+  }
+
+  .hs-title {
+    font-size : 60px;
+  }
+
+  #contact {
+    left: 6%;
+  }
+
+  .contact {
+    left: 10%;  
+    font-size : 42px;
+  }
+}
+
+@media (max-width: 1100px) {
+  nav ul li a {
+    font-size : 17px;
+  }
+
+  .description {
+    font-size : 16px;
+    line-height : 20px;
+  }
+
+  .description2 {
+    font-size : 16px;
+    line-height : 20px;
+  }
+
+  .berk-title {
+    font-size : 58px;
+  }
+
+  .hs-title {
+    font-size : 58px;
+  }
+}
+
+@media (max-width: 1050px) {
+  nav ul li a {
+    font-size : 16.5px;
+  }
+
+  .description {
+    font-size : 15px;
+    line-height : 19px;
+  }
+
+  .description2 {
+    font-size : 15px;
+    line-height : 19px;
+  }
+
+  .berk-title {
+    font-size : 56px;
+  }
+
+  .hs-title {
+    font-size : 56px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .berk-title {
+    font-size : 55px;
+  }
+
+  .hs-title {
+    font-size : 55px;
+  }
+}
+
+@media (max-width: 900px) {
+  nav ul li a {
+    font-size : 16px;
+    padding: 4px;
+  }
+
+  .logo {
+      width: 160px;
+      height: 38px;
+  }
+
+  .berk-title {
+    font-size : 54px;
+  }
+
+  .hs-title {
+    font-size : 54px;
+  }
+}
+
+@media (max-width: 850px) {
+  nav ul li a {
+    font-size : 15.5px;
+  }
+
+  .logo {
+      width: 140px;
+      height: 33px;
+  }
+  
+  .berk-title {
+    top: 5.5%;
+    font-size : 53px;
+  }
+
+  #description {
+    top: 41%;
+  }
+
+  .hs-title {
+    top: 5%;
+    font-size : 52px;
+  }
+}
+
+@media (max-width: 800px) {
+  nav ul li a {
+    font-size : 15px;
+    padding: 3px;
+  }
+  
+  .berk-title {
+    top: 6%;
+    font-size : 52px;
+  }
+
+  .hs-title {
+    top: 6%;
+    font-size : 51px;
+  }
+
+  #description {
+    top: 40%;
+  }
+}
+
+@media (max-width: 740px) {
+  .berk-title {
+    top: 6.5%;
+    font-size : 51px;
+  }
+
+  .hs-title {
+    top: 6.5%;
+    font-size : 50px;
+  }
+
+  #description {
+    top: 39%;
+  }
+}

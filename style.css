@@ -1,0 +1,872 @@
+body {
+    background: url(home_background-04-02.png);
+    width: 99%;
+    height: 260%;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* home page components */
+.name {
+  position: absolute;
+  top: 27%;
+  left: 12%;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 65px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  letter-spacing: 0.4px;
+}
+
+#description {
+	position: absolute;
+  	top: 41%;
+  	left: 12%;
+    height: 50%;
+    width: 40%;
+}
+
+.description {
+  font-family : GothamPro;
+  font-weight: 100;
+  font-size : 18px;
+  line-height : 23px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  opacity: 0.9;
+}
+
+#logo {
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
+
+.logo {
+    width: 190px;
+    height: 47px;
+}
+
+.learnmore-button {
+	position: absolute;
+  	top: 54%;
+  	left: 12%;
+  	width: 145px;
+  	height: 55px;
+  	opacity: 1;
+}
+
+.learnmore-button:hover {
+	opacity: 0.6;
+}
+
+.apply-button {
+	position: absolute;
+  	top: 54%;
+  	left: 22%;
+  	width: 122px;
+  	height: 55px;
+  	opacity: 1;
+}
+
+.apply-button:hover {
+	opacity: 0.6;
+}
+
+#laptop {
+	position: absolute;
+  	top: 24%;
+  	right:9%;
+}
+
+.laptop {
+  	width: 520px;
+  	height: 520px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* nav bar */
+nav ul {
+  list-style: none;
+  position: absolute;
+  top: 4%;
+  right: 3%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 23px;
+  line-height : 8px;
+  letter-spacing : 0.1px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  opacity : 0.9;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  opacity: .5;
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* bouncing arrow on home screen */
+.bounce {
+  position: absolute;
+  top: 60%;
+  left: 14.5%;
+  width: 70px;
+  height: 76px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation: sdb05 1.75s infinite;
+  animation: sdb05 1.75s infinite;
+  }
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(0deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translate(0, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb05 {
+  0% {
+    transform: rotate(0deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0deg) translate(0, 20px);
+    opacity: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------- */
+
+#page1 {
+    position: absolute;
+    left: 0;
+    top: 110%;
+    height: 1200px;
+    width: 99.9%;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.purple-box {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  width: 84%;
+  height: 370px;
+  background-color: #151350;
+  text-align: center;
+}
+
+.ourvision {
+  position: absolute;
+  top: 4%;
+  left: 41%;
+  font-family: "bebas-neue",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 65px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  letter-spacing: 0.4px;
+}
+
+
+.visionbody {
+  position: absolute;
+  top: 37%;
+  left: 5%;
+  right: 5%;
+  font-family : GothamPro;
+  font-weight: 100;
+  font-size : 20px;
+  line-height : 22px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  text-outline : #E9E9FD;
+  text-outline : rgb(233, 233, 253);
+}
+
+.apply-to-learn-button {
+	position: absolute;
+  	top: 66%;
+  	left: 44%;
+    right: 40%;
+  	width: 140px;
+  	height: 55px;
+  	opacity: 1;
+}
+
+.apply-to-learn-button:hover {
+	opacity: 0.7;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.outside-box {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  width: 70%;
+  height: 420px;
+}
+
+.ourcommittees {
+  position: absolute;
+  top: 4%;
+  left: 32%;
+  font-family: "bebas-neue",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size : 65px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  letter-spacing: 0.4px;
+}
+
+.education {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 420px;
+  height: 460px;
+}
+
+.projects {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 420px;
+  height: 460px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.ocf {  
+  position: absolute;
+  left: 2%;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+#ocf-notice {  
+  position: absolute;
+  left: 13%;
+  bottom: 3%;
+  width: 520px;
+  height: 15px;
+}
+
+.ocf-notice {  
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  text-align: left;
+  font-family : GothamPro;
+  font-weight: 100;
+  font-size : 14px;
+  line-height : 16px;
+  color : #E9E9FD;
+  color : rgb(233, 233, 253);
+  opacity: 0.7;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  right: 3%;
+  font-family : GothamPro;
+  font-weight: 100;
+  font-weight: 400;
+  font-size: 13px;
+  color: #D1D3D4;
+  letter-spacing: -0.3px;
+  opacity: 0.6;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* custom scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer; 
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Media Queries */
+
+@media (max-width: 1350px) {
+  /* home page components */
+  .name {
+    left: 9%;
+  }
+
+  #description {
+      left: 9%;
+  }
+
+  .description {
+    font-size : 16px;
+    line-height : 21px;
+  }
+
+  .learnmore-button {
+      left: 9%;
+  }
+
+  .apply-button {
+      left: 20%;
+  }
+
+  .bounce {
+    left: 12%;
+  }
+
+  .visionbody {
+    font-size : 18px;
+    line-height : 20px;
+  }
+
+  .outside-box {
+    left: 12%;
+    width: 75%;
+  }
+
+  .ourcommittees {
+    left: 34%;
+  }
+}
+
+@media (max-width: 1290px) {
+  .outside-box {
+    left: 10%;
+    width: 80%;
+  }
+
+  .ourcommittees {
+    left: 33%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .apply-button {
+      left: 21%;
+  }
+
+  .visionbody {
+    font-size : 17px;
+    line-height : 19px;
+    top: 35%;
+  }
+
+  .apply-to-learn-button {
+    left: 43.5%;
+  }
+
+  .ourvision {
+    left: 40%;
+  }
+
+  .outside-box {
+    left: 7%;
+    width: 85%;
+  }
+
+  .ourcommittees {
+    left: 34%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #description {
+      width: 45%;
+  }
+
+  .apply-button {
+      left: 23%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .description {
+    font-size : 14px;
+    line-height : 19px;
+  }
+
+  .apply-button {
+      left: 23%;
+  }
+
+  nav ul li a {
+    padding: 5px;
+  }
+
+  .ourvision {
+    left: 39.5%;
+  }
+
+  .apply-to-learn-button {
+    left: 43%;
+  }
+
+  .visionbody {
+    font-size : 15px;
+    line-height : 17px;
+  }
+
+  .outside-box {
+    left: 5%;
+    width: 90%;
+  }
+
+  .ourcommittees {
+    left: 34%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .apply-button {
+      left: 24%;
+  }
+
+  nav ul li a {
+    font-size : 17px;
+  }
+
+  .laptop {
+    width: 510px;
+    height: 510px;
+  }
+
+  #laptop {
+    right:7%;
+  } 
+
+  .ourvision {
+    left: 39%;
+  }
+
+  .apply-to-learn-button {
+    left: 42.5%;
+  }
+
+  .outside-box {
+    left: 3%;
+    width: 95%;
+  }
+
+  .education {
+    left: 3%;
+    width: 410px;
+    height: 450px;
+  }
+
+  .projects {
+    right: 3%;
+    width: 410px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1050px) {
+  nav ul li a {
+    font-size : 16.5px;
+  }
+
+  .laptop {
+    width: 490px;
+    height: 490px;
+  }
+
+  #laptop {
+    right:5%;
+  }
+
+  .ourvision {
+    left: 38.5%;
+  } 
+
+  .apply-to-learn-button {
+    left: 42%;
+  }
+
+  .outside-box {
+    left: 2%;
+    width: 97%;
+  }
+
+  .education {
+    left: 2%;
+    width: 395px;
+    height: 440px;
+  }
+
+  .projects {
+    right: 2%;
+    width: 395px;
+    height: 440px;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav ul li a {
+    padding: 0px;
+  }
+
+  .laptop {
+    width: 480px;
+    height: 480px;
+  }
+
+  #laptop {
+    right:4%;
+  } 
+
+  .name {
+    font-size : 62px;
+  }
+
+  .logo {
+      width: 180px;
+      height: 44px;
+  }
+
+  .apply-button {
+      left: 25%;
+  }
+
+  .ourvision {
+    left: 38%;
+  } 
+
+  .apply-to-learn-button {
+    left: 41.5%;
+  }
+
+  .education {
+    left: 2%;
+    width: 385px;
+    height: 430px;
+  }
+
+  .projects {
+    right: 2%;
+    width: 385px;
+    height: 430px;
+  }
+
+  .ourcommittees {
+    left: 31%;
+  }
+}
+
+@media (max-width: 900px) {
+  .description {
+    font-size : 12px;
+    line-height : 17px;
+  }
+
+  nav ul li a {
+    font-size : 16px;
+    padding: 4px;
+  }
+
+  .laptop {
+    width: 450px;
+    height: 450px;
+  }
+
+  #laptop {
+    right:3%;
+  } 
+
+  .name {
+    font-size : 58px;
+  }
+
+  .logo {
+      width: 160px;
+      height: 38px;
+  }
+
+  .apply-button {
+      left: 26%;
+  }
+
+  .ourvision {
+    left: 37.5%;
+  } 
+
+  .apply-to-learn-button {
+    left: 41%;
+  }
+
+  .ourcommittees {
+    left: 21%;
+  }
+
+  .outside-box {
+    top: 33%;
+    left: 15%;
+    width: 70%;
+    height: 860px;
+  }
+
+  .education {
+    top: 20%;
+    left: 17%;
+  }
+
+  .projects {
+    top: 75%;
+    left: 17%;
+  }
+
+  body {
+    height: 320%;
+    background: url(edited_home_longerdoc-20.png);
+  }
+
+  #page1 {
+      top: 110%;
+      height: 2100px;
+  }
+
+  .ocf {  
+    left: 2%;
+    bottom: 1.5%;
+  }
+
+  #ocf-notice {  
+    left: 23%;
+    bottom: 3%;
+    width: 500px;
+  }
+
+  .ocf-notice {  
+    font-size : 12px;
+    line-height : 14px;
+  }
+}
+
+@media (max-width: 850px) {
+  .description {
+    font-size : 11px;
+    line-height : 15px;
+  }
+
+  nav ul li a {
+    font-size : 15.5px;
+  }
+
+  .laptop {
+    width: 440px;
+    height: 440px;
+  }
+
+  #laptop {
+    right:2%;
+  } 
+
+  .name {
+    font-size : 56px;
+  }
+
+  .logo {
+      width: 140px;
+      height: 33px;
+  }
+
+  .apply-button {
+      left: 27%;
+  }
+
+  .ourvision {
+    left: 37%;
+  } 
+
+  .apply-to-learn-button {
+    left: 40.5%;
+  }
+
+  .outside-box {
+    left: 14%;
+  }
+}
+
+@media (max-width: 800px) {
+  .laptop {
+    width: 420px;
+    height: 430px;
+  }
+
+  #laptop {
+    right:1%;
+  }
+
+  .apply-button {
+      left: 28%;
+  }
+
+  .name {
+    font-size : 52px;
+  }
+
+  .learnmore-button {
+      width: 140px;
+      height: 52px;
+  }
+
+  .apply-button {
+      width: 118px;
+      height: 52px;
+  }
+
+  .ourvision {
+    left: 36.5%;
+  } 
+
+  .apply-to-learn-button {
+    left: 40%;
+  }
+
+  .outside-box {
+    left: 13%;
+  }
+
+  nav ul li a {
+    font-size : 15px;
+    padding: 3px;
+  }
+}
+
+@media (max-width: 740px) {
+  .laptop {
+      width: 0px;
+      height: 0px;
+  }
+
+  .name {
+    font-size : 65px;
+  }
+
+  .learnmore-button {
+      width: 143px;
+  }
+
+  .apply-button {
+      width: 120px;
+      height: 55px;
+  }
+
+  #description {
+    top: 41%;
+  }
+
+  .description {
+    font-size : 13px;
+    line-height : 17px;
+  }
+
+  .ourvision {
+    left: 34%;
+  } 
+
+  .apply-to-learn-button {
+    left: 39%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
