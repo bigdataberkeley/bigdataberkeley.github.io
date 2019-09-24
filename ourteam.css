@@ -327,6 +327,14 @@ nav.stroke ul li a:hover:after {
       width: 1450px;
       height: 500px;
   }
+
+  .first3 {
+    left: 14%;
+  }
+
+  .second4 {
+    left: 5%;
+  }
 }
 
 @media (max-width: 1350px) {
